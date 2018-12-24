@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="dist/css/swiper.min.css">
+  <title>纯css3动画</title>
+  <style>
+  a{text-decoration: none;}
+  </style>
+</head>
+<body>
+  <div class="swiper-container" id="swiper-container">
+    <div class="swiper-wrapper" id="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="donghua"><a href="###">跳过></a></div>
+          <img src="IMG/taiyang.png" alt="" class="taiyang">
+          <img src="IMG/wuzi.png" alt="" class="wuzi">
+          <img src="IMG/yun1.png" alt="" class="yun1">
+          <img src="IMG/yun2.png" alt="" class="yun2">
+          <img src="IMG/caoping.png" alt="" class="caoping">
+          <img src="IMG/shan5.png" alt="" class="shan5">
+          <img src="IMG/shan4.png" alt="" class="shan4">
+          <img src="IMG/shan3.png" alt="" class="shan3">
+          <img src="IMG/shan2.png" alt="" class="shan2">
+          <img src="IMG/shan1.png" alt="" class="shan1">
+          <div class="donghua1">原生态</div>
+          <div class="donghua2">无污染生态农场</div>
+          <div class="donghua3">健康营养有保障</div>
+        </div>
+        <div class="swiper-slide" id="swiper-slide">
+        	<div class="donghua"><a href="###">跳过></a></div>
+        	<div class="chezi1">
+        		<img src="IMG/chezi.png" alt="" class="chezi">
+        		<img src="IMG/lunzi.png" alt="" class="lunzi1" id="lunzi">
+        		<img src="IMG/lunzi.png" alt="" class="lunzi2" id="lunzi">
+        		<img src="IMG/lunzi.png" alt="" class="lunzi3" id="lunzi">
+        		<img src="IMG/lunzi.png" alt="" class="lunzi4" id="lunzi">
+        		<img src="IMG/lunzi.png" alt="" class="lunzi5" id="lunzi">
+        		<p class="p-1">鲜</p>
+        		<img src="IMG/dian.png" alt="" class="dian">	
+        	</div>
+        	<div class="donghua4">专业配送</div>
+		    <div class="donghua5">最专业的配送团队</div>
+		    <div class="donghua6">保证货物以最快的速度送至你的手中</div>
+        </div>
+        <div class="swiper-slide">
+        	<div class="donghua"><a href="###">跳过></a></div>
+        	<img src="IMG/kabao.png" alt="" class="kabao">
+        	<img src="IMG/qian1.png" alt="" class="qian1">
+        	<img src="IMG/qian2.png" alt="" class="qian2">
+        	<img src="IMG/qian3.png" alt="" class="qian3">
+        	<div class="yincang">
+	        	<img src="IMG/gun.png" alt="" class="gun">
+	        	<img src="IMG/yuan1.png" alt="" class="yuan1" id="yuan">
+	        	<img src="IMG/yuan1.png" alt="" class="yuan2" id="yuan">
+     	   	</div>
+     	   	<div class="donghua4" id="donghua4">丰富折扣</div>
+		    <div class="donghua5">邀请好友获取优惠券</div>
+		    <div class="donghua6">每周大折扣助你狂欢</div>
+		    <div class="tiyan">
+		    	<p>立即体验</p>
+		    </div>
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination" id="swiper-pagination"></div>
+</div>
+  <script src="dist/js/swiper.min.js"></script>
+  <script>
+     var swiper = new Swiper('.swiper-container', {
+      // autoplay: {
+      //   delay: 4000,
+      // },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
